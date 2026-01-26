@@ -12,5 +12,15 @@ int main(){
     printf("Ingresa la coordenada Y del pasajero");
     scanf("%f", &yp)
     
-    
+    d1 = sqrt(((x2-xp)*(x2-xp))+((y2-yp)*(y2-yp)));
+    d2 = sqrt(((x2-xp)*(x2-xp))+((y2-yp)*(y2-yp)));
+
+    print("La distacia al primer uber es: %f", d1);
+    print("La distacia al segundo uber es: %f", d2);
+
+    if(d1<d2){
+        print("El pasajero esta mas cerca del Uber 1");
+    } else {
+        print("El pasajero esta mas cerca del Uber 2");
+    }
 }
