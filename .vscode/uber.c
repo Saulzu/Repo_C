@@ -14,7 +14,7 @@ int main()
 
     printf("Ingresa la coordenada X del pasajero:");
     scanf("%f", &xp);
-    printf("Ingresa la coordenada Y del pasajero");
+    printf("Ingresa la coordenada Y del pasajero:");
     scanf("%f", &yp);
     
     d1 = sqrt(((x1-xp)*(x1-xp))+((y1-yp)*(y1-yp)));
