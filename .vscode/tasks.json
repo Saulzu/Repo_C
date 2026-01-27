@@ -1,7 +1,7 @@
 {
     "tasks": [
         {
-            "type": "cppbuild",
+            "type": "process",
             "label": "C/C++: gcc build active file",
             "command": "/usr/bin/gcc",
             "args": [
@@ -10,7 +10,7 @@
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
-                ""
+                "-lm"
             ],
             "options": {
                 "cwd": "${fileDirname}"
